@@ -1,0 +1,23 @@
+Проблема из за работающей службы DFSS, которая в стандартном варианте всегда работает на Win2012. 
+
+Dynamic Fair Share Scheduling (DFSS) позволяет балансировать и распределять ресурсы CPU между пользователями. 
+Для проверки статуса необходимо запустить PowerShell и выполнить команду: 
+(gwmi win32_terminalservicesetting -N "root\cimv2\terminalservices").enabledfss 
+Если в результате Вам вернулось значение 1 - значит возможности DFSS включены, 0 - выключены. 
+Средствами Group Policy выключить ее нельзя. Что бы ее выключить, необходимо сделать следующее: 
+Для 2008R2
+1) Открываем реестр windows (команда regedit) и переходим в ветку 
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Quota System 
+Находим параметр EnableCpuQuota и сохраняем его со значением 0  (1 - включить, 0 - отключить) 
+Параметра EnableFairShare в 2008r2 нет. 
+Перезагружаем компьютер, возможность будет выключена. 
+Для 2012 
+1) Открываем реестр windows (команда regedit) и переходим в ветку 
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Quota System 
+Находим параметр EnableCpuQuota и сохраняем его со значением 0  (1 - включить, 0 - отключить) 
+2) Открываем реестр windows (команда regedit) и переходим в ветку 
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TSFairShare\Disk 
+Находим параметр EnableFairShare и сохраняем его со значением 0 (1 - включить, 0 - отключить) 
+Перезагружаем компьютер, возможность будет выключена. 
+
+В общем случае, это решает проблему таких тормозов. Но вот почему себя DFSS так ведёт, пока не ясно
