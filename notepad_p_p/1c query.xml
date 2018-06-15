@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="1C QUERY" ext="">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">- &amp; ( ) * , . | + &lt; = &gt;</Keywords>
+            <Keywords name="Comment"> 1 2 0//</Keywords>
+            <Keywords name="Words1">&#x0412;&#x042B;&#x0411;&#x0420;&#x0410;&#x0422;&#x042C; &#x0418;&#x0417; &#x0413;&#x0414;&#x0415; &#x0418; &#x0418;&#x041B;&#x0418; &#x041A;&#x0410;&#x041A; &#x0421;&#x0413;&#x0420;&#x0423;&#x041F;&#x041F;&#x0418;&#x0420;&#x041E;&#x0412;&#x0410;&#x0422;&#x042C; &#x041F;&#x041E; &#x041C;&#x0410;&#x041A;&#x0421;&#x0418;&#x041C;&#x0423;&#x041C; &#x041D;&#x0410;&#x0427;&#x0410;&#x041B;&#x041E;&#x041F;&#x0415;&#x0420;&#x0418;&#x041E;&#x0414;&#x0410; &#x0413;&#x041E;&#x0414; &#x041C;&#x0415;&#x0421;&#x042F;&#x0426; &#x0412;&#x042B;&#x0411;&#x041E;&#x0420; &#x041A;&#x041E;&#x0413;&#x0414;&#x0410; &#x0418;&#x041D;&#x0410;&#x0427;&#x0415; &#x0422;&#x041E;&#x0413;&#x0414;&#x0410; &#x0417;&#x041D;&#x0410;&#x0427;&#x0415;&#x041D;&#x0418;&#x0415; &#x041A;&#x041E;&#x041D;&#x0415;&#x0426; &#x041D;&#x0415; &#x041E;&#x0411;&#x042A;&#x0415;&#x0414;&#x0418;&#x041D;&#x0418;&#x0422;&#x042C; &#x041B;&#x0415;&#x0412;&#x041E;&#x0415; &#x041F;&#x0420;&#x0410;&#x0412;&#x041E;&#x0415; &#x0412;&#x041D;&#x0423;&#x0422;&#x0420;&#x0415;&#x041D;&#x041D;&#x0415;&#x0415; &#x0412;&#x041D;&#x0415;&#x0428;&#x041D;&#x0415;&#x0415; &#x0421;&#x041E;&#x0415;&#x0414;&#x0418;&#x041D;&#x0415;&#x041D;&#x0418;&#x0415; &#x0423;&#x041F;&#x041E;&#x0420;&#x042F;&#x0414;&#x041E;&#x0427;&#x0418;&#x0422;&#x042C; &#x0421;&#x0423;&#x041C;&#x041C;&#x0410; &#x041C;&#x0415;&#x0416;&#x0414;&#x0423; &#x0414;&#x0410;&#x0422;&#x0410;&#x0412;&#x0420;&#x0415;&#x041C;&#x042F; NULL &#x0415;&#x0421;&#x0422;&#x042C;NULL &#x0412;</Keywords>
+            <Keywords name="Words2"></Keywords>
+            <Keywords name="Words3"></Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="FF0000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008040" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="0080C0" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="0000A0" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
